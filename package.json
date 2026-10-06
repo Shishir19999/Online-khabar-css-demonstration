@@ -1,0 +1,12 @@
+{
+  "name": "online-khabar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Online Khabar static CSS demo",
+  "scripts": {
+    "build:css": "sass --style=expanded --source-map scss/style.scss CSS/style.css"
+  },
+  "devDependencies": {
+    "sass": "^1.105.1"
+  }
+}
